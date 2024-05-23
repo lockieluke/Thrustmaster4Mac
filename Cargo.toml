@@ -1,5 +1,6 @@
 [package]
 name = "Thrustmaster4Mac"
+description = "Thrustmaster T300 RS GT custom driver for Wine and Native games on macOS"
 version = "0.1.0"
 edition = "2021"
 
