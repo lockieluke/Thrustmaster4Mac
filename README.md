@@ -33,6 +33,9 @@ for more details on parsing
 This guide only covers the usage of the driver in [Assetto Corsa](https://assettocorsa.gg/)
 
 ### Prerequisites
+
+Follow this [reddit post](https://www.reddit.com/r/macgaming/comments/14z3t6b/assetto_corsa_steam_content_manager_on_crossover/) for detailed instructions on how to run Assetto Corsa on macOS
+
 - A copy of Assetto Corsa, running on macOS via a Wine-based compatiblity layer like [CrossOver](https://www.codeweavers.com/crossover/) or [Whisky](https://getwhisky.app/)
 - [Content Manager](https://acstuff.ru/app/), full version is recommended
 - Newest version of [Custom Shader Patch](https://acstuff.ru/patch/)
