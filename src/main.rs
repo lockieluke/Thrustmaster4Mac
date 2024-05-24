@@ -1,5 +1,3 @@
-#![feature(async_closure)]
-
 extern crate hidapi;
 
 use std::sync::Arc;
