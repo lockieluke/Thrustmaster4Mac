@@ -58,7 +58,7 @@ Thrustmaster4Mac
 
 Install the [Assetto Corsa driver client](clients/AssettoCorsa), rename the directory to `Thrustmaster4Mac` and move it into the `steamapps/common/assettocorsa/apps/lua` directory using Finder
 
-Relaunch Content Manager, start the game, you should see `Client connected` in Thrustmaster4Mac's terminal, and the pedals should work in game.
+Relaunch Content Manager, start the game, you should see `Connected to client` in Thrustmaster4Mac's terminal, and the pedals should work in game.
 You might have to activate the Thrustmaster4Mac app in game for the first time by going to the top right corner, all apps then Thrustmaster4Mac
 
 Your pedals should now work in Assetto Corsa.
