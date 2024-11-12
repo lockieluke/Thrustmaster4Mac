@@ -1,7 +1,7 @@
 extern crate hidapi;
 
-use std::sync::Arc;
 use abs::abs;
+use std::sync::Arc;
 
 use console::style;
 use eyre::Result;
@@ -52,7 +52,9 @@ async fn main() -> Result<()> {
     let port = std::env::var("PORT").unwrap_or("8000".to_string());
     let api = HidApi::new()?;
     let mut devices = api.device_list();
-    let current_device = devices.find(|device| device.vendor_id() == VENDOR_ID);
+    let current_device = devices.find(|device| {
+        device.vendor_id() == VENDOR_ID && device.product_string().unwrap_or("").contains("Wheel")
+    });
 
     api.set_open_exclusive(false);
 
